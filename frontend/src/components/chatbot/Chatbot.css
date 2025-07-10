@@ -1,0 +1,95 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chatbot-icon {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+  
+  .chat-interface {
+    position: fixed;
+    bottom: 4px;
+    right: 4px;
+    width: 300px; /* Cập nhật chiều rộng */
+     
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0; /* Không padding trong container để không ảnh hưởng đến nội dung bên trong */
+}
+
+
+.chat-header {
+    display: flex;
+    justify-content: center; /* Căn giữa các thành phần theo chiều ngang */
+    align-items: center;     /* Căn giữa các thành phần theo chiều dọc */
+    position: relative;      /* Đặt mốc vị trí cho nút thu gọn */
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.collapse-button {
+    position: absolute;
+    right: 10px; /* Đặt nút thu gọn ở góc phải */
+    top: 50%;    /* Đặt nút thu gọn ở giữa chiều cao của header */
+    transform: translateY(-50%); /* Kéo nút lên để căn giữa chính xác */
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chat-avatar {
+    width: 30px;  /* Thiết lập kích thước của avatar */
+    height: 30px;
+    border-radius: 50%;  /* Làm tròn hình ảnh */
+    margin-right: 10px;  /* Khoảng cách giữa hình ảnh và văn bản */
+  }
+  
+  .message-content {
+    background-color: #f0f0f0;  /* Màu nền cho tin nhắn */
+    padding: 8px;
+    border-radius: 12px;  /* Làm tròn các góc của tin nhắn */
+    max-width: 80%;  /* Giới hạn chiều rộng của tin nhắn */
+  }
+  
+  .message.user .message-content {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .message.user {
+    justify-content: flex-end;
+  }
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .chatbot-icon:hover {
+    animation: jump 0.5s ease-in-out infinite;
+  }
+  

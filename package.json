@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.1",
+    "@shadcn/ui": "^0.0.4",
+    "canvas-confetti": "^1.9.3",
+    "date-fns": "^4.1.0",
+    "emoji-picker-react": "^4.12.2",
+    "framer-motion": "^12.6.3",
+    "gapi-script": "^1.2.0",
+    "howler": "^2.2.4",
+    "openai": "^4.87.3",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-calendar": "^5.1.0",
+    "react-circular-progressbar": "^2.2.0",
+    "react-datepicker": "^8.2.1",
+    "react-day-picker": "^9.6.5",
+    "react-hot-toast": "^2.5.2",
+    "recharts": "^2.15.2"
+  }
+}
