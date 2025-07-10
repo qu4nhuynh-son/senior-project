@@ -20,7 +20,14 @@ Zentask is a modern and intuitive task management web app that helps users stay 
 
 ## 📸 Screenshots
 
-> *(Add screenshots of Today panel, AI chatbot, Calendar, and Dashboard)*
+<img width="1463" alt="Screenshot 2025-07-09 at 9 52 38 PM" src="https://github.com/user-attachments/assets/c0f952f2-71fb-4533-afe3-b9aa30dc9b08" />
+
+<img width="1468" alt="Screenshot 2025-07-09 at 9 53 30 PM" src="https://github.com/user-attachments/assets/b9d25330-ce3f-4887-80bd-03fe12468d2c" />
+<img width="1465" alt="Screenshot 2025-07-09 at 9 55 03 PM" src="https://github.com/user-attachments/assets/b9cb0811-40cd-4c52-b9e1-e5a1b2de81d9" />
+<img width="1470" alt="Screenshot 2025-07-09 at 9 55 16 PM" src="https://github.com/user-attachments/assets/5db2e560-e632-4605-9422-d367b244328a" />
+<img width="1467" alt="Screenshot 2025-07-09 at 9 55 30 PM" src="https://github.com/user-attachments/assets/4d8002df-0857-4174-a566-ca3309140f90" />
+<img width="1469" alt="Screenshot 2025-07-09 at 9 55 52 PM" src="https://github.com/user-attachments/assets/6f788513-a2df-45e4-93fd-8209f3488c00" />
+
 
 ## 🧠 How It Works
 
